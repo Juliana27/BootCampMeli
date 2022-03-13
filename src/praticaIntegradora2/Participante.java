@@ -1,4 +1,4 @@
-package praticaIntegrada2;
+package praticaIntegradora2;
 
 public class Participante {
 

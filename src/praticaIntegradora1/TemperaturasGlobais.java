@@ -1,4 +1,4 @@
-package praticaIntegrada1;
+package praticaIntegradora1;
 
 public class TemperaturasGlobais {
 
