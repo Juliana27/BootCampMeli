@@ -1,11 +1,22 @@
 package praticaIntegrada2;
 
+import java.util.List;
+
 public class Circuito {
 
     private String nome;
     private int km;
     private double valorCrianca;
     private double valorAdulto;
+    List<Participante> listaDeParticipantes;
+
+    public List<Participante> getListaDeParticipantes() {
+        return listaDeParticipantes;
+    }
+
+    public void setListaDeParticipantes(List<Participante> listaDeParticipantes) {
+        this.listaDeParticipantes = listaDeParticipantes;
+    }
 
     public double getValorCrianca() {
         return valorCrianca;
