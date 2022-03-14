@@ -1,4 +1,4 @@
-package praticaIntegradora4;
+package praticaIntegradora4.exercicio1;
 
 public class PraticaExecoes {
 
