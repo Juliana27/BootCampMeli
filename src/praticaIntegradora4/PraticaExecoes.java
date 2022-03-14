@@ -10,9 +10,9 @@ public class PraticaExecoes {
         try {
             int razao = b/a;
             System.out.println("Resultado: " + razao);
-            System.out.println("Programa finalizado");
         } catch (ArithmeticException e) {
-            System.out.println("Ocorreu um erro");
+            throw new IllegalArgumentException("Não pode ser dividido por zero");
+        } finally {
             System.out.println("Programa finalizado");
         }
     }
