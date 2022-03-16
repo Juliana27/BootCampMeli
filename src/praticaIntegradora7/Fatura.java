@@ -38,4 +38,12 @@ public class Fatura {
     public void setTotalCompra(BigDecimal totalCompra) {
         this.totalCompra = totalCompra;
     }
+
+    @Override
+    public String toString() {
+        return "Fatura - " +
+                "cliente: " + cliente +
+                ", itens: " + itens +
+                ", totalCompra: " + totalCompra;
+    }
 }
